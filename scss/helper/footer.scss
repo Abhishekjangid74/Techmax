@@ -1,0 +1,130 @@
+// Footer Start
+.footer {
+ padding: 100px 0;
+  display: flex;
+  color: var(--primary-text);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+
+  .footer-left {
+    width: 25%;
+    margin-right: 5%;
+
+    p {
+      font-weight: 500;
+      padding: 50px 0 30px;
+    }
+
+    .social-media {
+      ul {
+        display: flex;
+      }
+      li {
+        margin-right: 10px;
+      }
+      .media-icon {
+        // background: var(--social-icon-bg);
+        // padding: 15px;
+        // border-radius: $border-radius100;
+
+        img {
+          display: block;
+        }
+      }
+    }
+  }
+  .footer-link {
+    position: relative;
+    width: 25%;
+    li {
+      line-height: 40px;
+    }
+    .before{
+        transition: all 0.5s ease;
+        position: relative;
+        margin-left: 30px;
+    }
+    .before::before{
+        position: absolute;
+        content: '';
+        width: 20px;
+        height: 2px;
+        background: var(--primary-button-bg);
+        left: -30px;
+        top: 50%;
+    }
+    li a:hover{
+        color: var( --primary-button-bg);
+    }
+    h4 {
+      font-size: $fonts22;
+      font-weight: 500;
+      padding-bottom: 30px;
+    }
+    .email{
+    .input{
+        padding: 25px 0 25px 15px;
+        border-radius: 35px;
+        width: 100%;
+        background: var(--social-icon-bg);
+        border: 0;
+        margin-top: 30px;
+        outline: none;
+        color: var(--primary-text);
+        position: relative;
+    }
+    .send a{
+        background: var( --primary-button-bg);
+        padding: 13px;
+        display: inline-block;
+        border-radius: $border-radius100;
+        position: absolute;
+        right: 10px;
+        top: 126px;
+        img{
+            display: block;
+        }
+    }
+}
+  }
+}
+
+// Footer End
+// Copy Right Start
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    .left{
+        color: var(--primary-text);
+        span{
+            color: var(--primary-button-bg);
+        }
+    }
+    .right{
+        position: relative;
+
+    }
+    ul{
+        display: flex;
+    }
+    .before{
+        position: relative;
+    }
+    .before::before {
+        position: absolute;
+        content: "";
+        top: 5px;
+        left: -20px;
+        height: 10px;
+        width: 10px;
+        background: #725BEC;
+        border-radius: 50px;
+    }
+    li:first-child{
+        margin-right: 50px;
+    }
+}
+
+// Copy Right End

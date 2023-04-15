@@ -1,0 +1,420 @@
+// Slider Start
+.Slider-bg {
+  background-image: url(../images/slider-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .slider-left {
+      width: 44%;
+      color: var(--primary-text);
+
+      h1 {
+        font-size: $fonts60;
+        line-height: $line-height65;
+      }
+      p {
+        padding: 30px 0;
+      }
+      a {
+        font-size: $fonts18;
+        display: inline-block;
+        padding: 20px 30px;
+        font-weight: 500;
+        background: var(--primary-button-bg);
+        border-radius: $border-radius30;
+        transition: $transition01;
+      }
+      a:hover {
+        background: var(--secondry-button-bg);
+      }
+    }
+    .slider-right {
+      width: $width49;
+      margin-top: 50px;
+      img {
+        width: $width100;
+        margin-left: 30px;
+      }
+    }
+  }
+}
+// Slider End
+
+// Campany Name Start
+.campany-name-bg {
+  background-image: url(../images/campany-bg.png);
+  padding: 70px 20px;
+  margin-top: -100px;
+  position: relative;
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li img {
+    width: 70%;
+  }
+}
+
+// Campany Name End
+// Usersi Start
+section {
+  margin-top: 100px;
+  .usersi {
+    display: flex;
+    .Usersi-image{
+      width: 100%;
+      margin-right: 30px;
+      img{
+        width: 100%;
+      }
+    }
+    .heading {
+      color: var(--primary-text);
+      h5 {
+        font-size: $fonts20;
+        color: var(--primary-heading);
+        font-weight: 500;
+        img {
+          margin-left: 5px;
+        }
+      }
+      h3 {
+        font-size: $fonts40;
+        font-weight: 500;
+        line-height: $line-height40;
+        padding: 25px 0;
+      }
+      .Cryptocurrency {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        li {
+          width: 50%;
+          margin-top: 30px;
+          font-weight: 500;
+          img {
+            vertical-align: middle;
+            margin-right: 10px;
+          }
+        }
+      }
+      a {
+        font-size: $fonts18;
+        display: inline-block;
+        padding: 15px 30px;
+        margin-top: 30px;
+        font-weight: 500;
+        background: var(--primary-button-bg);
+        border-radius: $border-radius30;
+        transition: $transition01;
+      }
+      a:hover {
+        background: var(--secondry-button-bg);
+      }
+    }
+  }
+}
+// Usersi End
+// Features Start
+.Features-bg {
+  background-image: url(../images/features-bg.png);
+  background-repeat: no-repeat;
+  padding: 100px 0;
+
+  .heading-2 {
+    text-align: center;
+
+    h5 {
+      span {
+        font-size: $fonts20;
+        padding: 0 10px;
+        font-weight: 500;
+        color: var(--primary-heading);
+      }
+    }
+    h3 {
+      font-size: $fonts40;
+      line-height: $line-height40;
+      color: var(--primary-heading);
+      padding: 30px 0 70px;
+    }
+  }
+  .Features-cards {
+    text-align: center;
+    color: var(--primary-text);
+    ul {
+      display: flex;
+    }
+    li {
+      margin-right: 20px;
+      width: 33%;
+      padding: 40px;
+      background: rgba(19, 19, 49, 0.7);
+      border-radius: $border-radius10;
+      // transition: opacity 1s ease-in-out;
+      // -o-transition: opacity 1s ease-in-out;
+      // -moz-transition: opacity 1s ease-in-out;
+      // -webkit-transition: opacity 1s ease-in-out;
+    }
+    .icon-bg {
+      background: var(--primary-icon-bg);
+      border-radius: $border-radius100;
+      display: inline-block;
+      padding: 30px;
+      img {
+        display: block;
+      }
+    }
+    li:hover .icon-bg {
+      background: var(--primary-button-bg);
+      // transition: ease 0.9s;
+      // transition: opacity 1s ease-in-out;
+      // -o-transition: opacity 1s ease-in-out;
+      // -moz-transition: opacity 1s ease-in-out;
+      // -webkit-transition: opacity 1s ease-in-out;
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+    li:hover {
+      background-image: url(../images/features-hover.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      // transition: opacity 1s ease-in-out;
+      // -o-transition: opacity 1s ease-in-out;
+      // -moz-transition: opacity 1s ease-in-out;
+      // -webkit-transition: opacity 1s ease-in-out;
+    }
+    h4 {
+      font-size: $fonts20;
+      font-weight: 600;
+      padding: 20px 0;
+    }
+    p {
+      font-size: $fonts14;
+    }
+  }
+}
+
+// Features End
+// Market Start
+.heading {
+  color: var(--primary-text);
+  h5 {
+    font-size: $fonts20;
+    color: var(--primary-heading);
+    font-weight: 500;
+    img {
+      margin-left: 5px;
+    }
+  }
+  h3 {
+    font-size: $fonts40;
+    font-weight: 500;
+    line-height: $line-height40;
+    padding: 25px 0;
+  }
+}
+.market-heading {
+  color: #fff;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  li {
+    padding: 25px 0 10px;
+  }
+  li:first-child {
+    width: 36%;
+    font-size: $fonts20;
+    font-weight: 500;
+    padding-left: 50px;
+  }
+  li:nth-child(n + 2) {
+    width: 16%;
+    text-align: center;
+  }
+}
+.market {
+  color: #fff;
+  background: var(--primary-market-bg);
+  margin-top: 20px;
+  border-radius: $border-radius10;
+
+  ul {
+    display: flex;
+  }
+  li {
+    img {
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+
+  .market-icon {
+    display: flex;
+
+    .market-icon-right {
+      margin-left: 20px;
+    }
+    h5 {
+      font-size: $fonts20;
+      padding-bottom: 10px;
+    }
+    p {
+      span {
+        color: var(--secondry-market-text);
+      }
+    }
+  }
+  li:nth-child(2) {
+    color: var(--down-arrow);
+
+    span {
+      color: var(--up-arrow);
+    }
+  }
+  li:first-child {
+    width: 36%;
+    padding: 20px 0 20px 50px;
+  }
+  li:nth-child(n + 2) {
+    width: 16%;
+    padding: 37px 0;
+    text-align: center;
+  }
+}
+// Market End
+// Testimonial Start
+.testimonial-bg{
+  background-image: url(../images/testimonial-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+
+  .heading-2 {
+    text-align: center;
+
+    h5 {
+      span {
+        font-size: $fonts20;
+        padding: 0 10px;
+        font-weight: 500;
+        color: var(--primary-heading);
+      }
+    }
+    h3 {
+      font-size: $fonts40;
+      line-height: $line-height40;
+      color: var(--primary-heading);
+      padding: 30px 0 70px;
+    }
+  }
+  .testimonial-card{
+  color: var(--primary-text);
+    ul{
+      display: flex;
+    }
+    li{
+      margin-right: 20px;
+      background: rgba(19, 19, 49, 0.7);
+      padding: 40px 30px;
+
+      .testimonial-details{
+        display: flex;
+
+        .testimonial-details-right{
+          margin-left: 20px;
+          h4{
+            font-size: $fonts22;
+            font-weight: 600;
+            padding-bottom: 15px;
+          }
+          h6{
+            font-weight: 400;
+            color: var( --secondry-market-text);
+            font-size: $fonts18;
+          }
+        }
+      }
+    }
+    p{
+      padding: 30px 0 40px;
+      color: var( --secondry-market-text);
+      font-size: $fonts14;
+    }
+    .star{
+      display: flex;
+      align-items: center;
+      span{
+        font-weight: 500;
+        margin-left: 10px;
+      }
+    }
+    li:last-child{
+      margin-right: 0;
+    }
+    li:hover{
+      background-image: url(../images/testimonial-hover.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+// Testimonial End
+// Crypto Selling Start
+.crypto-selling-bg{
+  background-image: url(../images/crypto-selling-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20PX 0;
+
+  
+  .crypto-selling{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .crypto-selling-left{
+    width: $width49;
+    h2{
+      font-size: $fonts40;
+      line-height: $line-height40;
+      color: var(--primary-text);
+      font-weight: 500;
+    }
+    P{
+      color: var(--secondry-market-text);
+      padding: 40px 0;
+    }
+    a {
+      font-size: $fonts18;
+      display: inline-block;
+      padding: 20px 30px;
+      font-weight: 500;
+      background: var(--primary-button-bg);
+      border-radius: $border-radius30;
+      transition: $transition01;
+    }
+    a:hover {
+      background: var(--secondry-button-bg);
+    }
+   }
+   .crypto-selling-right{
+    width: $width49;
+   }
+ }
+}
+
+
+
+
+// Crypto Selling End
